@@ -1,0 +1,25 @@
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between items */
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between image and paragraph */
+}
+
+.item-image {
+    width:300px;
+    height: 250px;
+    border-radius: 10px; /* Optional: Add border radius to images */
+}
+
+.item-description {
+    flex-grow: 1; /* Allow the paragraph to grow to fill available space */
+    margin: 0; /* Remove default margin */
+    text-align: left; /* Align paragraph text to left */
+    font-size: 37px;
+}

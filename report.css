@@ -1,0 +1,35 @@
+CSS
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#ans {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+#ans2 {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#output {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+
